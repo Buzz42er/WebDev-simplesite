@@ -7,26 +7,24 @@ window.onload = function() {
     let price = adults*12 + child*6;
     alert("$" + price); 
 
-    if (child<0) {
-        child = 0;
-    }
+        if (child<0) {
+            child = 0;
+        }
     
-    if (adults< 0) {
-        adults = 0; 
-    }
+        if (adults< 0) {
+            adults = 0; 
+        }
 
-    var num = 0;
-while(num<child) {
-        num++;
-        console.log("Ticket kids #" + num)
-    }
+        var num = 0;
+        while(num<child) {
+            num++;
+            console.log("Ticket kids #" + num)
+        }
 
-    var num = 0;
-while(num<adults) {
-        num++;
-        console.log("Ticket #" + num)
-    }
-    
-  
+        var num = 0;
+        while(num<adults) {
+            num++;
+            console.log("Ticket #" + num)
+        }
     }
 }
