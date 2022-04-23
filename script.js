@@ -5,7 +5,7 @@ window.onload = function() {
     let child = document.getElementById("child").value;
 
     let price = adults*12 + child*6;
-    alert("$" + price); 
+        alert("$" + price); 
 
         if (child<0) {
             child = 0;
@@ -16,15 +16,17 @@ window.onload = function() {
         }
 
         var num = 0;
-        while(num<child) {
+        while (num<child) {
             num++;
             console.log("Ticket kids #" + num)
         }
 
         var num = 0;
-        while(num<adults) {
+        while (num<adults) {
             num++;
             console.log("Ticket #" + num)
         }
     }
+    
 }
+
