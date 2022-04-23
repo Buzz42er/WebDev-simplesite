@@ -1,0 +1,111 @@
+body {
+    background-color: #e0e0e0;
+}
+
+
+h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/*------------------------------------------------*/
+
+section {
+    padding: 10px;
+    background-color: white;
+
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    height: 300px;
+}
+
+strong {
+    color: #2493df;
+} 
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: inside;
+
+}
+
+th , td , table {
+    border-collapse:collapse;
+    border: 1px solid black;
+    
+    
+}
+
+th , td {
+    padding: 10px;
+}
+
+th {
+    background-color: #2493df;
+    color: white;
+}
+
+/*------------------------------------------------*/
+
+#buy {
+    background-color: #687373;
+    margin-top: 10px;
+    color: #fcfcfc;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+#buy form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="number"] {
+    padding: 2px;
+    text-align: center;
+    width: 50px;
+
+}
+
+#buybutton {
+    background-color: #2493df;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+.form-section {
+    flex: 1;
+    justify-content: center;
+
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*------------------------------------------------*/
+
+footer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #595959;
+}
